@@ -4,7 +4,7 @@ import { Transition } from "@/components/ui/transition";
 import { Card, CardHeader, CardContent } from "@/components/ui/card";
 import { CheckCircle } from "lucide-react";
 
-export default function HeroSection() {
+export default function HowItWorksSection() {
   return (
     <section className="relative py-24 px-6 lg:px-12">
       <motion.div
@@ -15,12 +15,12 @@ export default function HeroSection() {
       >
         <Transition type="slide-down" delay={100}>
           <h2 className="text-4xl font-bold tracking-tight">
-            Next-Gen G Klasa: Empowering Grassroots Football
+            AI-Powered Marketing Automation
           </h2>
         </Transition>
         <Transition type="fade" delay={200}>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Manage G Klasa Leagues with ease.
+            Boost your marketing efficiency with AI-driven automation.
           </p>
         </Transition>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -29,9 +29,9 @@ export default function HeroSection() {
               <CheckCircle className="h-12 w-12 text-primary" />
             </CardHeader>
             <CardContent className="text-center space-y-2">
-              <h3 className="text-lg font-semibold">Team Registration</h3>
+              <h3 className="text-lg font-semibold">Instant Content</h3>
               <p className="text-muted-foreground">
-                Register your team hassle-free.
+                AI generates posts and ads in seconds.
               </p>
             </CardContent>
           </Card>
